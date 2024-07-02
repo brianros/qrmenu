@@ -1,0 +1,33 @@
+qr-restaurant-menu/
+├── pages/
+│   ├── index.js
+│   ├── menu.js
+│   ├── admin/
+│   │   ├── index.js
+│   │   ├── items.js
+│   │   └── categories.js
+│   └── api/
+│       ├── menuItems.js
+│       └── categories.js
+├── components/
+│   ├── MenuItem.js
+│   ├── CategoryList.js
+│   ├── QRCodeGenerator.js
+│   ├── Layout.js
+│   └── AdminLayout.js
+├── models/
+│   ├── MenuItem.js
+│   └── Category.js
+├── utils/
+│   ├── dbConnect.js
+│   └── auth.js
+├── public/
+│   └── images/
+├── styles/
+│   └── globals.css
+├── config/
+│   └── auth.js
+├── middleware.js
+├── next.config.js
+├── package.json
+└── README.md
