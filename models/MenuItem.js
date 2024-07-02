@@ -9,16 +9,12 @@ const MenuItemSchema = new mongoose.Schema({
   description: {
     type: String,
     required: [true, 'Please provide a description for this item.'],
-    maxlength: [200, 'Description cannot be more than 200 characters'],
   },
   price: {
     type: Number,
     required: [true, 'Please provide a price for this item.'],
   },
-  category: {
-    type: String,
-    required: [true, 'Please specify a category for this item.'],
-  },
+  // Add any other fields you need
 });
 
 export default mongoose.models.MenuItem || mongoose.model('MenuItem', MenuItemSchema);
